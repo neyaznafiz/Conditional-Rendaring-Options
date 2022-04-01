@@ -19,13 +19,19 @@ else{
 {cart.length !== 4 ? <p>keep adding</p> : <button> remove all </button>}
 
 
-// 3. && operator / shorthand
+// 3. && (and) operator / shorthand
 
 {cart.length === 3 && <div>
 <p>trigonal</p> 
 <p>tin jon ke ki gift diba</p>
 </div>
 }
+
+
+// 4.  || (or) operator
+
+{cart.length === 0 || <p>YAY! you are buing</p>}
+
 
 
 // ay operator gula ta cart er moddhe dinakically boshaye dite hobe
