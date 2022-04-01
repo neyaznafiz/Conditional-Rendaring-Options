@@ -16,5 +16,7 @@ else{
 // ay command variable ta cart er moddhe dinakically boshaye dite hobe
 
 
+// 2. ternary operator (condation ? true : false)
 
+{cart.length !== 4 ? <p>keep adding</p> : <button> remove all </button>}
 
